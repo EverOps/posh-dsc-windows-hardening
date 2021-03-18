@@ -677,7 +677,7 @@ Configuration CIS_WindowsServer2019_v110 {
           Key          = 'HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsFirewall\PublicProfile'
           ValueName    = 'AllowLocalPolicyMerge'
           ValueType    = 'DWord'
-          ValueData    = '0'
+          ValueData    = '1'
        }
 
        #  9.3.6 (L1) Ensure 'Windows Firewall: Public: Settings: Apply local connection security rules' is set to 'No'
